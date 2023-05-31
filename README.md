@@ -16,6 +16,10 @@ You can start editing the popup by modifying `popup.tsx`. It should auto-update 
 
 For further guidance, [visit our Documentation](https://docs.plasmo.com/)
 
+## Building for Safari
+
+Run `xcrun safari-web-extension-converter build/chrome-mv3-dev --project-location build/ --app-name safari-mv3-dev`. This will create XCode project in `build/safari-mv3-dev` folder and open it in XCode. [Build it for MacOS](https://developer.apple.com/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension#2957926) and [enable](https://developer.apple.com/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension#2957925) it. It will open Safari with your extension installed.
+
 ## Making production build
 
 Run the following:

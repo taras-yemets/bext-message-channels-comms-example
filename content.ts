@@ -1,6 +1,6 @@
 export {}
 
-async function main() {
+function main() {
   const { port1, port2 } = new MessageChannel()
   port1.start()
   port1.addEventListener("message", (event) => {
